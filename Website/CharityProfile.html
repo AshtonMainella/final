@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelpHub - Homepage</title>
+    <link rel="stylesheet" href="charity_profile.css"> <!-- Link to external CSS file -->
+    <script src="charity_profile.js" defer></script> <!-- Link to external JavaScript file -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <!-- Search Bar -->
+        <div class="search-bar">
+            <form>
+                <input type="text" placeholder="Search...">
+                <input type="submit" value="Search">
+            </form>
+        </div>
+
+        <!-- Logo -->
+        <img src="New Project.png" alt="HelpHub Logo" id="logo">
+
+        <!-- Empowering Curiosity, Inspiring Growth -->
+        <h2>Empowering Curiosity, Inspiring Growth</h2>
+        
+        <!-- Navigation Menu -->
+        <nav>
+            <ul>
+                <li><a href="Website roughdraft.html">Home</a></li>
+                <li><a href="CharityProfile.html">Charities</a></li>
+                <li><a href="CharityPage.html">Charity Profile</a></li>
+            </ul>
+        </nav>
+
+        <!-- Welcome to HelpHub -->
+        <h1>Welcome to HelpHub!</h1>
+        
+        <!-- Site Title and Mission Statement -->
+        <div>
+            <p>Welcome to HelpHub! At HelpHub, our mission is to empower individuals by providing accessible, reliable, and personalized assistance across a myriad of topics. We are dedicated to fostering a supportive community where knowledge is shared, curiosity is nurtured, and growth is encouraged. Through innovative solutions and collaborative efforts, we strive to make learning and problem-solving an enriching and fulfilling experience for all. Together, we aim to inspire and enable individuals to overcome challenges, expand their horizons, and achieve their full potential.</p>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Charity Info Section -->
+        <div class="charity-info">
+            <select id="charityList">
+                <option value="feedingAmerica">Feeding America</option>
+                <option value="unitedWay">United Way Worldwide</option>
+                <option value="stJude">St. Jude Children's Research Hospital</option>
+                <option value="goodwill">Goodwill</option>
+            </select>
+
+            <!-- Charity Mission and Description Sections -->
+            <section id="feedingAmerica">
+                <h2>Feeding America</h2>
+                <p> Feeding America is a nationwide network of food banks and charitable organizations dedicated to alleviating hunger in the United States. They work to provide nutritious food to millions of Americans facing food insecurity through a network of food pantries, soup kitchens, and shelters. By partnering with local communities, businesses, and individuals, Feeding America distributes billions of pounds of food each year, aiming to address both short-term hunger relief and long-term solutions to food insecurity.</p>
+            </section>
+        
+            <section id="unitedWay">
+                <h2>United Way Worldwide</h2>
+                <p> United Way Worldwide is a global nonprofit organization focused on improving communities and advancing social causes around the world. Through partnerships with local organizations, businesses, governments, and individuals, United Way works to address issues such as education, income stability, and health. They mobilize resources, advocate for policy changes, and implement programs aimed at creating lasting positive impacts in communities, empowering individuals to reach their full potential.</p>
+            </section>
+        
+            <section id="stJude">
+                <h2>St. Jude Children's Research Hospital</h2>
+                <p>St. Jude Children's Research Hospital is a leading pediatric treatment and research facility dedicated to treating and curing pediatric catastrophic diseases, particularly childhood cancer. Located in Memphis, Tennessee, St. Jude provides cutting-edge medical care to children regardless of their ability to pay. Their groundbreaking research discoveries are shared freely with medical institutions worldwide, contributing to the global fight against childhood diseases. Families never receive a bill from St. Jude for treatment, travel, housing, or food, allowing them to focus solely on their child's healing..</p>
+            </section>
+        
+            <section id="goodwill">
+                <h2>Goodwill</h2>
+                <p>Goodwill Industries International is a nonprofit organization that provides job training, employment placement services, and other community-based programs for people facing barriers to employment. Through its network of local Goodwill organizations, it offers job training programs, career counseling, and support services to individuals with disabilities, those who lack education or job experience, and others facing challenges in the job market. Goodwill also operates thrift stores where donated goods are sold to fund their programs, promoting sustainability and community engagement.</p>
+            </section>
+
+            <!-- Volunteer Now Button and Contact Form -->
+            <button id="volunteerButton">Volunteer Now</button>
+            <form id="contactForm" style="display: none;">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </main>
+    <!-- Footer Section -->
+    <footer>
+        <!-- Footer Content -->
+        <p>&copy; 2024 HelpHub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
